@@ -7,7 +7,7 @@
 
 // start
 
-int a = 22, b = 3, c = 9;
+int a = 2, b = 3, c = 7;
 int max = 0;
 
 if (a > b)
@@ -26,6 +26,10 @@ if (a > c)
 else
 {
     max = c;
+}
+if (b > c)
+{
+    max = b;
 }
 Console.WriteLine(max);
 
